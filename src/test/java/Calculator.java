@@ -73,7 +73,7 @@ public class Calculator{
         calcsession.findElementByName("One").click();
         calcsession.findElementByName("Two").click();
         calcsession.findElementByName("Divide by").click();
-        calcsession.findElementByName("3").click();
+        calcsession.findElementByName("Three").click();
         calcsession.findElementByName("Equals").click();
         Assert.assertEquals(getDisplayResult(),"4");
     }
